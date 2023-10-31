@@ -1,0 +1,54 @@
+.carousel-control.right, .carousel-control.left{
+    background-image: none !important;
+}
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.carousel-card{
+    margin: 20px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+}
+.carousel-container{
+    max-width: 600px;
+}
+.card-details {
+    padding: 15px;
+}
+.card-title{
+    font-family: Roboto;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.card-description{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.learn-more-btn{
+    display: flex;
+    font-family: Roboto;
+    margin: auto;
+    justify-content: end;
+    color: blueviolet;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.carousel-card.postpaid-card{
+    text-align: center;
+}
+.carousel-card.postpaid-card .card-title{
+    color: #313131;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+}
+.carousel-card.postpaid-card .supertitle{
+    color: #313131;
+font-family: Robota;
+font-size: 16px;
+font-weight: 400;
+}

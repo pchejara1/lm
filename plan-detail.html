@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Place Landing Page - Loyalty Mart</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="" rel="icon">
+    <link href="" rel="apple-touch-icon">
+
+    <!-- boostrap CSS Files -->
+    <link rel="stylesheet" href="assets/bootstrap/5/css/bootstrap.min.css">
+
+    <!--  style File -->
+    <link rel="stylesheet" href="assets/css/design.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+      
+
+      <section class="main-section">
+        <div class="title-division">
+          <h2 class="page-title">Market Place</h2>
+        </div>
+        <div class="plan-detail-card">
+          <img src="assets/images/4.png" alt="img-1">
+          <p class="plan-detail-description">KRYPCO is not a regular Loyalty Program offering only deals and discounts. It’s a unique service launched for the customers of UAE, to benefit from knowing all deals in town as well as to get cash back of 5% of the bill value up to 200 AED per month as mobile recharge or cash deposit to account. </p>
+        </div>
+        <div class="choose-plan-card">
+          <div class="choose-plan-card-header">
+            <div class="title-block"></div>
+            <h1>Choose Plan</h1>
+          </div>
+          <hr class="header-seperator">
+          <div class="packs-card">
+            <h4 class="pack-title">Day Pack</h4>
+            <h4 class="pack-details">1.25 AED/day</h4>
+            <button class="subscribe-btn" type="button" data-bs-toggle="modal" data-bs-target="#otpModal">Subscribe</button>
+          </div>
+          <div class="packs-card">
+            <h4 class="pack-title">Day Pack</h4>
+            <h4 class="pack-details">1.25 AED/day</h4>
+            <button class="subscribe-btn" type="button" data-bs-toggle="modal" data-bs-target="#otpModal">Subscribe</button>
+          </div>
+
+        </div>
+
+        
+
+
+        <footer>
+          <img src="assets/images/footer.png" alt="">
+        </footer>
+        
+      </section>
+
+
+<!-- otp popup -->
+<div class="modal fade" id="otpModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="popup-title">OTP Verification</div>
+      <div class="popup-content">
+        <p>Enter OTP</p>
+        <div class="otp-container">
+          <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+          <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+          <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+          <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+        </div>
+        <button class="btn verify-btn" type="button" data-bs-toggle="modal" data-bs-target="#thankyouModal">Verify OTP</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="thankyouModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="thankyou-content">
+        <img src="assets/images/icons/success-icon.svg" alt="">
+        <h1>Thank You!</h1>
+        <p>You Have Successfully Subscribed.</p>
+        <button class="btn" onclick="javascript:window.location.href='market-place-landing.html'">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+ <!--  JS Files -->
+ <script src="assets/bootstrap/5/js/bootstrap.min.js"></script>
+
+ <!-- Main JS File -->
+ <script src="assets/js/script.js"></script>
+</body>
+</html>
